@@ -57,7 +57,7 @@ jobs:
       - name: checkout librewolf-void
         uses: actions/checkout@v4
         with:
-          ref: master
+          ref: ${{ github.ref }}
           path: librewolf
       - name: checkout void-packages
         uses: actions/checkout@v4
