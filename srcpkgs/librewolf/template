@@ -9,7 +9,8 @@ short_desc="LibreWolf web browser"
 maintainer="librebro <librebro@proton.me>"
 license="GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0"
 homepage="https://librewolf.dev"
-distfiles="https://librewolf.dev/api/packages/librewolf/generic/librewolf-source/${version}-${_rev}/${pkgname}-${version}-${_rev}.source.tar.gz"
+
+distfiles="https://librewolf.dev/api/packages/librewolf/generic/librewolf-source/${version}${_rev:+-$_rev}/${pkgname}-${version}${_rev:+-$_rev}.source.tar.gz"
 checksum=4b363d2c85eda694c671bda98fc1f0a0ad9cfa030c975ae4fd0e1092a3f59eb2
 
 lib32disabled=yes
